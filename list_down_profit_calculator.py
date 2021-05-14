@@ -37,9 +37,9 @@ while choice == 'Y':
 List Down Profit Calculator
 
 Please enter the list price: '''))
-  sales_discount = int(input('''
+  sales_discount = float(input('''
 Please enter the sales discount as percentage: '''))
-  purchase_discount = int(input('''
+  purchase_discount = float(input('''
 Please enter the purchase discount as percentage: '''))
   print('''
 Purchase Price = ${:,.2f}
